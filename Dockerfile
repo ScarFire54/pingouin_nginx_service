@@ -1,6 +1,7 @@
 FROM nginxinc/nginx-unprivileged:stable-alpine 
 
-COPY html /usr/share/nginx/html
+COPY html/skipper_pingouin.jpg /usr/share/nginx/html
+COPY html/index.html /usr/share/nginx/html
 
 EXPOSE 8080
 
